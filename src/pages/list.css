@@ -1,0 +1,62 @@
+
+.h3{
+    font-weight: 900;
+}
+.views{
+    font-size: 0.85rem;
+}
+
+.green-label{
+    background-color: #defadb;
+    color: #48b83e;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    margin: 0 3px;
+}
+.count{
+    font-size: 0.8rem;
+}
+
+.filter-container{
+    display: flex;
+    align-items: top;
+    justify-content: start;
+}
+.filter-item{
+    width: 20%;
+    border-right: 1px solid #defadb;
+}
+
+.filter-item select{
+    width: 200px;
+    
+}
+.list-job{
+    width: 70%;
+    height: 90vh;
+    overflow-y: scroll;
+    
+}
+
+@media(max-width:800px){
+    .filter-container{
+    flex-direction: column;
+}
+.filter-item{
+    width: 100%;
+    border-bottom: 1px solid #defadb;
+}
+.list-job{
+    width: 100%;
+    height: 90vh;
+    overflow-y: scroll;
+    
+}
+.filter-item select{
+    width: 250px;
+    
+}
+ 
+}
+
+
